@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Room homepage</title>
+
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <div class="main-container">
+    <section class="hero-section flex">
+      <div class="hero-left-section">
+        <picture class="hero-images">
+          <source srcset="images/mobile-image-hero-1.jpg" 
+          media="(max-width: 37.5em)"
+          class="mobile-img" />
+        </picture>
+        <img src="images/desktop-image-hero-1.jpg" class="hero-img" id="hero-img">
+          <div class="angle-boxes flex">
+            <div class="angle-left-box ">
+              <img src="images/icon-angle-left.svg" alt="left-angle" class="icon-angle icon-angle-left">
+            </div>
+            <div class="angle-right-box">
+              <img src="images/icon-angle-right.svg" alt="right angle" class="icon-angle icon-angle-right">
+            </div>
+          </div>
+      <header>
+        <button class="btn-mobile-nav">
+           <img src="images/icon-hamburger.svg" class="icon-mobile-nav" id="menu-outline">
+           <img src="images/icon-close.svg" class="icon-mobile-nav" id="close-outline">
+        </button>
+        <nav class="main-nav flex">
+          <img src="images/logo.svg" alt="logo-img" class="logo">
+            <ul class="nav-list flex">
+              <li class="nav-items"><a href="#" class="nav-links">home</a></li>
+              <li class="nav-items"><a href="#" class="nav-links">shop</a></li>
+              <li class="nav-items"><a href="#" class="nav-links">about</a></li>
+              <li class="nav-items"><a href="#" class="nav-links">contact</a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+      <div class="hero-right-section">
+        <h1 class="hero-main-heading" id="heading">Discover innovative ways to decorate</h1>
+        <p id="text" class="hero-main-text">We provide unmatched quality, comfort, and style for property owners across the country. 
+        Our experts combine form and function in bringing your vision to life. Create a room in your 
+        own style with our collection and make your property a reflection of you and what you love.</p>
+        <a href="#" class="shop-link">Shop now
+          <svg class="arrow-icon" width="65" height="12" xmlns="http://www.w3.org/2000/svg"><path d="M34.05 0l5.481 5.527h.008v.008L40 6l-.461.465v.063l-.062-.001L34.049 12l-.662-.668 4.765-4.805H0v-1h38.206l-4.82-4.86L34.05 0z" fill="#000" fill-rule="nonzero"/></svg></a>
+      </div>
+  </section>
+  <section class="about-section flex">
+    <div class="about-left">
+      <img src="images/image-about-dark.jpg" alt="dark furniture image" class="about-img">
+    </div>
+    <div class="about-middle">
+      <h2 class="about-main-heading">About our furniture</h2>
+      <p class="about-main-text">Our multifunctional collection blends design and function to suit your individual taste.
+      Make each room unique, or pick a cohesive theme that best express your interests and what inspires you. Find the furniture pieces you need, from traditional to   contemporary styles
+      or anything in between. Product specialists are available to help you create your dream space.</p>
+    </div>
+    <div class="about-right">
+      <img src="images/image-about-light.jpg" alt="furniture light image" class="about-img">
+    </div>
+  </section>
+</div class="main-container">
+  <div class="attribution" role="contentinfo">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">bc464</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
